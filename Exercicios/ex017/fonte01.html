@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+
+            cm (centímetros), 
+            mm (milímetros), 
+            in (inch ou polegadas), 
+            px(pixel - Geralmente os navegadores colocam o font-size em 16px por padrão), 
+            pt(ponto - É altura relativa aos tamanhos dos editores de texto), 
+            pc(paica).
+
+-------------------------------------------------------------------------------
+            Medidas Relativas:
+
+            em (Relativa ao M maísculo de uma determinada fonte - É a que vamos aprender a utilizar nessas aulas - 16px é igual a 1em), 
+            ex (Relativa ao tamanho da altura x da fonte), 
+            rem (Similar ao em porém relativo ao root que é a fonte que está configurada no body),
+            vw (View width - Largura da view port que é relativa ao tamanho da largura da sua tela),
+            vh (View height - Altura da view port - Igual ao de cima porém relativo a altura),
+            % (Porcentagem).
+
+            A W3C recomenda a utilização apenas das medidas (px) e (em).
+            A medida padrão dos navegadores é equivalente a 16px ou 1em.
+            */
+            font-size: 1em;
+            }
+
+            h1 {
+                /*
+                font-family: 'Work Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+                ------
+                As quatro linhas acima, podem ser substituidas pela linha a baixo.
+                ------
+                shorthand font
+                - font-style -> font-weight -> font-size -> font-family */
+
+                font: italic bolder 3em 'Work Sans', sans-serif;
+            }
+
+            h2 {
+                font: bold 2em 'Work Sans', sans-serif;
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias omnis, nisi perferendis officia animi id! Mollitia modi corporis in asperiores eum excepturi itaque reiciendis, magni fugiat, perferendis eos debitis quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minus vero expedita quo itaque odio dolorem rem pariatur voluptates, aperiam nam fugiat quas. Error delectus explicabo ipsa ex! Maxime, iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cumque? Repudiandae illum excepturi, saepe consequatur fuga sapiente veniam tempore suscipit omnis, architecto in fugit. Nemo perferendis adipisci reiciendis error quod.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis vero exercitationem incidunt ratione saepe sed, eum odit qui voluptas repellat, voluptate minus facilis delectus aspernatur rem, possimus perspiciatis? Vel, adipisci! lore</p>  
+</body>
+</html>

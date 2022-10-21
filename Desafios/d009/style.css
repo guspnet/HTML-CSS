@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(28, 28, 28);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+div {
+    padding-top: 50px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: aliceblue;
+}
