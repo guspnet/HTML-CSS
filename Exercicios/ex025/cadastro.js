@@ -1,1 +1,2 @@
-window.alert('Dados enviados')
+Dados Enviados!
+Só falta aprender a usar!
