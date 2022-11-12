@@ -35,6 +35,10 @@ Grandes Telas: acima de 1200px
         text-decoration: overline;
     }
 
+    article {
+        display: block;
+    }
+
     img#phone{ display: none; }
     img#tablet{ display: none; }
     img#print{ display: block; }

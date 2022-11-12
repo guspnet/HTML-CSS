@@ -41,6 +41,18 @@ img{
     margin: auto;
 }
 
+article {
+    display: none;
+    margin-top: 140px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
 img#phone{ display: block; }
 img#tablet{ display: none; }
 img#print{ display: none; }
